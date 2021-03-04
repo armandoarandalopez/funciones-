@@ -1,0 +1,30 @@
+// funcion 4
+// created by armando aranda lopez
+
+
+
+#include <iostream>
+int factorial(int a);
+
+
+int main()
+{
+
+    int n1;
+    std::cout<<"digite un numero : ";
+    std::cin>>n1;
+    int fact=factorial(n1);
+    std::cout<<"el"<<n1<<"es:"<<fact;
+
+    return 0;
+}
+int factorial (int a)
+{
+    int i;
+    int resultados= 1;
+    for(i=1; i<=a; i++){
+        resultados *=i;
+    }
+    return 0;
+
+    }
