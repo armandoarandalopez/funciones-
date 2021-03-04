@@ -1,0 +1,33 @@
+// funcion 2
+// created by armando aranda lopez
+
+
+
+#include <iostream>
+int max(int a,int b);
+
+int main()
+{
+
+    int n1,n2;
+    std::cout<<"digite dos numeros : ";
+    std::cin>>n1>>n2;
+    std::cout<<"el mayor de los numeros es: "<<max(n1,n2) ;
+
+    return 0;
+}
+int max(int a, int b)
+{
+    int mayor;
+    if(a>b)
+    {
+        mayor=a;
+    }
+    else
+    {
+        mayor=b;
+    }
+
+    return mayor;
+
+}
