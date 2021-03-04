@@ -1,0 +1,25 @@
+// funcion
+// created by armando aranda lopez
+
+
+
+#include <iostream>
+void multiplicacion (int a,int b);
+
+
+int main()
+{
+
+    int a,b;
+    std::cout<<"introduce el primer valor del primer numero a multiplicar: ";
+    std::cin>>a;
+    std::cout<<"introduce el valor del segundo numero a multiplicar: " ;
+    std::cin>>b;
+    multiplicacion(a,b);
+    return 0;
+}
+void multiplicacion(int a, int b)
+{
+    int c=a*b;
+    std::cout<<"el resultado de la multiplicacion es "<<c;
+}
