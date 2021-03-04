@@ -1,0 +1,35 @@
+// funcion 3
+// created by armando aranda lopez
+
+
+
+#include <iostream>
+int max(int a,int b);
+
+
+int main()
+{
+
+    int n1,n2,n3;
+    std::cout<<"digite tres numeros : ";
+    std::cin>>n1>>n2>>n3;
+    int max1=max(n1,n2);
+    int max2= max(max1,n3);
+    std::cout<<"el mayor de los numeros es: "<<max2 ;
+
+    return 0;
+}
+int max(int a, int b)
+{
+    int mayor;
+    if(a>b)
+    {
+        mayor=a;
+    }
+    else
+    {
+        mayor=b;
+    }
+    return mayor;
+
+    }
